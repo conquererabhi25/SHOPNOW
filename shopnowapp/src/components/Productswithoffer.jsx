@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 import Loader from "../components/Loader";
+import {Link} from 'react-router-dom';
 
 
 const OfferProducts = () => {
@@ -38,6 +39,7 @@ const OfferProducts = () => {
 
         <div className="mt-6 grid grid-cols-2 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-3 xl:gap-x-8">
           {data.map((product) => (
+            <Link to={`/productfakeapi/${product.id}`} key={product.id} > 
             <div key={product.id} className="group relative cursor-pointer">
               <img
                 alt={product.imageAlt}
@@ -57,6 +59,7 @@ const OfferProducts = () => {
                 <p className="text-sm font-medium text-gray-900">${product.price}</p>
               </div>
             </div>
+            </Link>
           ))}
         </div>
       </div>
