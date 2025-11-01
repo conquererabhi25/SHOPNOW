@@ -103,7 +103,7 @@ const Header = () => {
           >
             <div className="flex items-center justify-center p-1 pb-0">
               <HiShoppingBag className="text-blue-500 mr-1 size-6 md:size-8" />
-              <h1 className="text-blue-600 roboto font-bold text-[15px] md:text-[30px]">
+              <h1 className="text-blue-600 roboto font-bold text-[30px] md:text-[30px]">
                 QS
               </h1>
             </div>
