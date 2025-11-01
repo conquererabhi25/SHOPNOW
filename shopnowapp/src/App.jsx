@@ -72,7 +72,7 @@ import ProductOverview from "./Pages/ProductOverview";
 import ProductOverview1 from "./Pages/ProductOverviewFakeapi";
 import SearchResults from "./Pages/SearchResults";
 import Cart from "./Pages/Cart";
-import CheckoutPage from "./Pages/checkoutpage";
+import CheckoutPage from "./Pages/CheckoutPage";
 import { SignIn, SignUp, SignedIn, SignedOut, RedirectToSignIn, UserButton } from "@clerk/clerk-react";
 
 // 👇 Optional: Simple SignIn and SignUp Pages
