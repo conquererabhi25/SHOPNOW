@@ -8,7 +8,7 @@ import BeautyAndFood from "../../public/productCategories/beautyandfood.jpg";
 import AdBanner from "../../public/ihponebannerimage.png";
 import AdBaner1 from "../../public/furniture.png";
 import TrendingProducts from "../components/TrendingProducts";
-import OfferProducts from "../components/productswithoffer";
+import OfferProducts from "../components/Productswithoffer";
 import Adbaner3 from "../../public/familyshopping.png";
 import Grocery from "../../public/Grocery.jpg";
 import { useNavigate } from "react-router-dom";
