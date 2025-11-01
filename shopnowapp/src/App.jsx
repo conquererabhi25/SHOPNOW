@@ -13,7 +13,7 @@
 // import Grocery from "./Pages/Grocery";
 // import ProductOverview from "./Pages/ProductOverview";
 // import ProductOverview1 from "./Pages/ProductOverviewFakeapi";
-// import SearchResults from "./pages/SearchResults";
+// import SearchResults from "./Pages/SearchResults";
 // import Cart from "./Pages/Cart";
 // import CheckoutPage from "./Pages/checkoutpage";
 // import { SignedIn, SignedOut, SignInButton, UserButton } from '@clerk/clerk-react';
