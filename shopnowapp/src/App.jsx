@@ -71,7 +71,7 @@ import Grocery from "./Pages/Grocery";
 import ProductOverview from "./Pages/ProductOverview";
 import ProductOverview1 from "./Pages/ProductOverviewFakeapi";
 import SearchResults from "./Pages/SearchResults";
-import Cart from "./Pages/cart";
+import Cart from "./Pages/Cart";
 import CheckoutPage from "./Pages/CheckoutPage";
 import { SignIn, SignUp, SignedIn, SignedOut, RedirectToSignIn, UserButton } from "@clerk/clerk-react";
 
