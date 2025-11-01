@@ -15,7 +15,7 @@
 // import ProductOverview1 from "./Pages/ProductOverviewFakeapi";
 // import SearchResults from "./Pages/SearchResults";
 // import Cart from "./Pages/Cart";
-// import CheckoutPage from "./Pages/checkoutpage";
+// import CheckoutPage from "./Pages/CheckoutPage";
 // import { SignedIn, SignedOut, SignInButton, UserButton } from '@clerk/clerk-react';
 
 // const App = () => {
