@@ -103,7 +103,7 @@ const ProductOverview = () => {
             Add to Cart
           </button>
           <button className="bg-green-500 cursor-pointer text-white px-4 py-2 rounded hover:bg-green-600 transition duration-300 ml-4">
-            Buy Now
+            Buy Now.
           </button>
         </div>
         <p className="mt-4 text-sm">{product.shippingInformation}</p>
