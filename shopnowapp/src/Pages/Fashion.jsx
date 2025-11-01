@@ -40,18 +40,18 @@ const Fashion = () => {
         
         {/* Breadcrumb Navigation */}
         <div className="flex items-center rounded-md shadow-lg justify-start p-3 w-fit cursor-pointer text-gray-500 text-md mb-4">
-          <h1 onClick={() => navigate("/")} className="hover:text-blue-600">Home</h1>
+          <h1 onClick={() => navigate("/")} className="hover:text-blue-600 text-xs md:text-sm">Home</h1>
           <IoIosArrowForward className="mx-1" />
           <h1
             onClick={() => setCategory("women's clothing")}
-            className={`hover:text-blue-600 ${category === "women's clothing" ? "text-black font-semibold" : ""}`}
+            className={`hover:text-blue-600 text-xs md:text-sm ${category === "women's clothing" ? "text-black font-semibold" : ""}`}
           >
             Womens Fashion
           </h1>
           <IoIosArrowForward className="mx-1" />
           <h1
             onClick={() => setCategory("men's clothing")}
-            className={`hover:text-blue-600 ${category === "men's clothing" ? "text-black font-semibold" : ""}`}
+            className={`hover:text-blue-600 text-xs md:text-sm ${category === "men's clothing" ? "text-black font-semibold" : ""}`}
           >
             Mens Fashion
           </h1>

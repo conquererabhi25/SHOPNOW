@@ -39,18 +39,18 @@ const MobileAndTablets = () => {
         
         {/* Breadcrumb Navigation */}
         <div className="flex items-center rounded-md shadow-lg justify-start p-3 w-fit cursor-pointer text-gray-500 text-md mb-4">
-          <h1 onClick={() => navigate("/")} className="hover:text-blue-600">Home</h1>
+          <h1 onClick={() => navigate("/")} className="hover:text-blue-600 text-xs md:text-sm">Home</h1>
           <IoIosArrowForward className="mx-1" />
           <h1
             onClick={() => setCategory("smartphones")}
-            className={`hover:text-blue-600 ${category === "smartphones" ? "text-black font-semibold" : ""}`}
+            className={`hover:text-blue-600 text-xs md:text-sm ${category === "smartphones" ? "text-black font-semibold" : ""}`}
           >
             Mobile
           </h1>
           <IoIosArrowForward className="mx-1" />
           <h1
             onClick={() => setCategory("tablets")}
-            className={`hover:text-blue-600 ${category === "tablets" ? "text-black font-semibold" : ""}`}
+            className={`hover:text-blue-600  text-xs md:text-sm ${category === "tablets" ? "text-black font-semibold" : ""}`}
           >
             Tablets
           </h1>
