@@ -93,7 +93,7 @@ const Header = () => {
   }, [searchQuery, lastVisitedPage, navigate]);
 
   return (
-    <div className="flex p-2 justify-between items-center bg-white w-screen h-[20vh] md:h-[15vh] shadow-md sticky top-0 z-50">
+    <div className="flex p-2 justify-between items-center bg-white w-screen h-fit md:h-[15vh] shadow-md sticky top-0 z-50">
       <div className="flex flex-col w-full pt-1 md:pt-0">
         <div className="flex p-2 pt-1 pb-2 mx-[2vw] md:mx-[4vw] justify-between items-center gap-5 w-[95vw]">
           {/* Logo */}
